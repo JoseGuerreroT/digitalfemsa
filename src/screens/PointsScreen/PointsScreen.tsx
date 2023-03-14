@@ -1,6 +1,8 @@
 import React from 'react';
-import {Text, StyleSheet, SafeAreaView} from 'react-native';
-import Header from './Header';
+import {StyleSheet, SafeAreaView} from 'react-native';
+import PointsCard from './PointsCard';
+import PointsHeader from './PointsHeader';
+import PointsSubtitle from './PointsSubtitle';
 
 const PointsScreen: React.FC<{}> = () => {
   //   const {data, loading, error} = useQuery(GET_POINTS);
@@ -14,7 +16,10 @@ const PointsScreen: React.FC<{}> = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Header />
+      <PointsHeader />
+      <PointsSubtitle txt="TUS PUNTOS" />
+      <PointsCard />
+      <PointsSubtitle txt="TUS MOVIMIENTOS" />
     </SafeAreaView>
   );
 };
@@ -23,9 +28,8 @@ export default PointsScreen;
 
 const styles = StyleSheet.create({
   container: {
+    marginHorizontal: 20,
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   title: {
     fontSize: 24,
