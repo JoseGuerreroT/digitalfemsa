@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, SafeAreaView} from 'react-native';
+import Button from '../../core/Button';
 import PointsCard from './PointsCard';
 import PointsHeader from './PointsHeader';
 import PointsSubtitle from './PointsSubtitle';

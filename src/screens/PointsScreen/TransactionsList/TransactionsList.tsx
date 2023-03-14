@@ -1,5 +1,6 @@
 import React from 'react';
-import {FlatList, StyleSheet} from 'react-native';
+import {FlatList, StyleSheet, View} from 'react-native';
+import TransactionFooter from '../TransactionFooter';
 import TransactionItem from '../TransactionItem';
 
 const DATA = [
@@ -19,12 +20,15 @@ const DATA = [
 
 const TransactionList = () => {
   return (
-    <FlatList
-      data={DATA}
-      style={styles.container}
-      renderItem={({item}) => <TransactionItem />}
-      keyExtractor={item => item.id}
-    />
+    <View>
+      <FlatList
+        data={DATA}
+        style={styles.container}
+        renderItem={({item}) => <TransactionItem />}
+        keyExtractor={item => item.id}
+      />
+      <TransactionFooter />
+    </View>
   );
 };
 
