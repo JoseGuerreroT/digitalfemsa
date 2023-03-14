@@ -3,6 +3,7 @@ import {StyleSheet, SafeAreaView} from 'react-native';
 import PointsCard from './PointsCard';
 import PointsHeader from './PointsHeader';
 import PointsSubtitle from './PointsSubtitle';
+import TransactionsList from './TransactionsList';
 
 const PointsScreen: React.FC<{}> = () => {
   //   const {data, loading, error} = useQuery(GET_POINTS);
@@ -20,6 +21,7 @@ const PointsScreen: React.FC<{}> = () => {
       <PointsSubtitle txt="TUS PUNTOS" />
       <PointsCard />
       <PointsSubtitle txt="TUS MOVIMIENTOS" />
+      <TransactionsList />
     </SafeAreaView>
   );
 };

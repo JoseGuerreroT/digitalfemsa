@@ -10,7 +10,13 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="PointsScreen" component={PointsScreen} />
+        <Stack.Screen
+          options={{
+            header: () => null,
+          }}
+          name="PointsScreen"
+          component={PointsScreen}
+        />
         <Stack.Screen
           name="TransactionsDetailScreen"
           component={TransactionDetailScreen}
