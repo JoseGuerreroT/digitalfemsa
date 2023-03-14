@@ -1,7 +1,8 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
+import TransactionDetailsImage from './TransactionDetailsImage';
 
-const TransactionDetailScreen: React.FC<{}> = () => {
+const TransactionDetailsScreen: React.FC<{}> = () => {
   //   const {data, loading, error} = useQuery(GET_POINTS);
 
   //   if (loading) {
@@ -13,18 +14,17 @@ const TransactionDetailScreen: React.FC<{}> = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>TransactionDetailScreen</Text>
+      <TransactionDetailsImage />
     </View>
   );
 };
 
-export default TransactionDetailScreen;
+export default TransactionDetailsScreen;
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    paddingHorizontal: 20,
+    paddingTop: 20,
   },
   title: {
     fontSize: 24,

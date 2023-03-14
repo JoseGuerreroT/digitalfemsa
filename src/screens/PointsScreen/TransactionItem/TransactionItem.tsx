@@ -7,7 +7,7 @@ const TransactionItem = () => {
     <View style={styles.container}>
       <View style={styles.section}>
         <Image
-          source={require('../../../assets/images/placerholder-trasaction-item.png')}
+          source={require('../../../assets/images/placerholder-trasaction-item-thumbnail.png')}
           style={styles.image}
         />
         <View>
