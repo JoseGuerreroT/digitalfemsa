@@ -1,6 +1,8 @@
 import React from 'react';
-import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
+import {View, StyleSheet, SafeAreaView} from 'react-native';
+import TransactionDetailsHeader from './TransactionDetailsHeader';
 import TransactionDetailsImage from './TransactionDetailsImage';
+import TransactionsDetailsFooter from './TransactionsDetailsFooter';
 
 const TransactionDetailsScreen: React.FC<{}> = () => {
   //   const {data, loading, error} = useQuery(GET_POINTS);
@@ -15,6 +17,7 @@ const TransactionDetailsScreen: React.FC<{}> = () => {
   return (
     <View style={styles.container}>
       <TransactionDetailsImage />
+      <TransactionsDetailsFooter />
     </View>
   );
 };
@@ -25,12 +28,5 @@ const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 20,
     paddingTop: 20,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-  },
-  points: {
-    fontSize: 24,
   },
 });

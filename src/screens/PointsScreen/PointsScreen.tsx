@@ -1,10 +1,9 @@
 import React from 'react';
-import {StyleSheet, SafeAreaView} from 'react-native';
-import Button from '../../core/Button';
+import {StyleSheet, View} from 'react-native';
 import PointsCard from './PointsCard';
 import PointsHeader from './PointsHeader';
-import PointsSubtitle from './PointsSubtitle';
 import TransactionsList from './TransactionsList';
+import Text from '../../core/Text';
 
 const PointsScreen: React.FC<{}> = () => {
   //   const {data, loading, error} = useQuery(GET_POINTS);
@@ -17,13 +16,13 @@ const PointsScreen: React.FC<{}> = () => {
   //   }
 
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <PointsHeader />
-      <PointsSubtitle txt="TUS PUNTOS" />
+      <Text style={styles.subtitle}>TUS PUNTOS</Text>
       <PointsCard />
-      <PointsSubtitle txt="TUS MOVIMIENTOS" />
+      <Text style={styles.subtitle}>TUS MOVIMIENTOS</Text>
       <TransactionsList />
-    </SafeAreaView>
+    </View>
   );
 };
 
@@ -34,11 +33,9 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     flex: 1,
   },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-  },
   subtitle: {
-    fontSize: 24,
+    fontSize: 14,
+    color: '#9B9898',
+    marginVertical: 20,
   },
 });
