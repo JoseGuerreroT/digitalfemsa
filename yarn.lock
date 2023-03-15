@@ -1719,6 +1719,13 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
+"@testing-library/react-native@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/react-native/-/react-native-12.0.0.tgz#6604b9daa9a32b1a4287c3b501658768adaf11c3"
+  integrity sha512-Wa7TsEbsduLaLNK9sycgIpSqC4v3tt0zzH5BIDqqNEVN+LQqeX9UdWxD6JFcKgbXJVqWvPq5Y3fzQbYqOaf9zw==
+  dependencies:
+    pretty-format "^29.0.0"
+
 "@tsconfig/react-native@^2.0.2":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@tsconfig/react-native/-/react-native-2.0.3.tgz#79ad8efc6d3729152da6cb23725b6c364a7349b2"
@@ -4410,6 +4417,11 @@ jest-mock@^29.5.0:
     "@jest/types" "^29.5.0"
     "@types/node" "*"
     jest-util "^29.5.0"
+
+jest-native@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/jest-native/-/jest-native-3.0.0.tgz#359d746fae6a36458e494952da998d9b9a747356"
+  integrity sha512-bvqfL1rnVzPorGUne0LWQMyiFFf5yitHYqQMmCPPq350AwwASzhOcxuuYZ4VkWPTHAK/o/JuRTJFt0TbMJ+F+Q==
 
 jest-pnp-resolver@^1.2.2:
   version "1.2.3"

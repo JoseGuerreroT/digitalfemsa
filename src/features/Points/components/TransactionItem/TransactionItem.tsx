@@ -5,7 +5,7 @@ import Text from '../../../../core/Text';
 import {
   getTextualDateFormat,
   getThousandFormat,
-} from '../../../../utils/formatString';
+} from '../../utils/formatString';
 import {Product} from '../../models/Product';
 
 type TransactionItemProps = {
@@ -28,7 +28,11 @@ const TransactionItem: React.FC<TransactionItemProps> = ({
         style={styles.image}
       />
       <View>
-        <Text weight="bold" style={styles.productNameTxt}>
+        <Text
+          numberOfLines={1}
+          ellipsizeMode="tail"
+          weight="bold"
+          style={styles.productNameTxt}>
           {product.product}
         </Text>
         <Text style={styles.dateTxt}>

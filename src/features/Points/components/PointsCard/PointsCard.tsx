@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import Text from '../../../../core/Text';
-import {getThousandFormat} from '../../../../utils/formatString';
+import {getThousandFormat} from '../../utils/formatString';
 
 type PointsCardProps = {
   points: number;

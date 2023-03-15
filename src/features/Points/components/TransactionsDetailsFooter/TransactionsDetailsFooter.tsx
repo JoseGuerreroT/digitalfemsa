@@ -5,7 +5,7 @@ import Text from '../../../../core/Text';
 import {
   getTextualDateFormat,
   getThousandFormat,
-} from '../../../../utils/formatString';
+} from '../../utils/formatString';
 
 type TransactionDetailsFooterProps = {
   createdAt: string;
