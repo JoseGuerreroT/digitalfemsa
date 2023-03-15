@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Text from '../../../core/Text';
+
+import Text from '../../../../core/Text';
 
 const PointsHeader: React.FC<{}> = () => (
   <View>

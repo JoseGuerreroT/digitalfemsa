@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Button from '../../../core/Button';
+
+import Button from '../../../../core/Button';
 
 const showAllButton = false;
 

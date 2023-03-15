@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, StyleSheet, SafeAreaView} from 'react-native';
-import TransactionDetailsHeader from './TransactionDetailsHeader';
+import TransactionDetailsHeader from './components/TransactionDetailsHeader';
 import TransactionDetailsImage from './TransactionDetailsImage';
 import TransactionsDetailsFooter from './TransactionsDetailsFooter';
 

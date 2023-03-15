@@ -1,7 +1,8 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import Text from '../../../core/Text';
-import Button from '../../../core/Button';
+
+import Text from '../../../../core/Text';
+import Button from '../../../../core/Button';
 
 const TransactionDetailsFooter: React.FC<{}> = () => {
   return (

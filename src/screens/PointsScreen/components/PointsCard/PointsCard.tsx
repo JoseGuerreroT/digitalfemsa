@@ -1,23 +1,25 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import Text from '../../../core/Text';
 
-const PointsCard: React.FC<{}> = () => {
-  return (
-    <View style={styles.container}>
-      <View style={styles.card}>
-        <View style={styles.content}>
-          <Text weight="800" style={styles.header}>
-            Diciembre
-          </Text>
-          <Text weight="800" style={styles.contentTxt}>
-            10,00.00 pts
-          </Text>
-        </View>
+import Text from '../../../../core/Text';
+
+type PointsCardProps = {
+  points: number;
+};
+const PointsCard: React.FC<PointsCardProps> = ({points}) => (
+  <View style={styles.container}>
+    <View style={styles.card}>
+      <View style={styles.content}>
+        <Text weight="800" style={styles.header}>
+          Diciembre
+        </Text>
+        <Text weight="800" style={styles.contentTxt}>
+          {points} pts
+        </Text>
       </View>
     </View>
-  );
-};
+  </View>
+);
 
 const styles = StyleSheet.create({
   card: {
