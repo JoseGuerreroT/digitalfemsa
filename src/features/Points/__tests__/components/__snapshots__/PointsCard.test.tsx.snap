@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PointsCard component 01 - renders the component correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#334FFA",
+        "borderRadius": 20,
+        "minHeight": 143,
+        "padding": 20,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 4,
+        "width": "81%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Avenir",
+            },
+            {
+              "color": "#fff",
+              "fontSize": 16,
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+            },
+            {
+              "fontWeight": "800",
+            },
+          ]
+        }
+      >
+        Diciembre
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Avenir",
+            },
+            {
+              "color": "#fff",
+              "fontSize": 32,
+            },
+            {
+              "fontWeight": "800",
+            },
+          ]
+        }
+      >
+        1000
+         pts
+      </Text>
+    </View>
+  </View>
+</View>
+`;
