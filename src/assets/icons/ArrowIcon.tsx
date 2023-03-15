@@ -4,10 +4,12 @@ import Svg, {Path} from 'react-native-svg';
 
 const ArrowIcon: React.FC = () => {
   return (
-    <Svg viewBox="0 0 8 14" width={8} height={14}>
+    <Svg width={10} height={10} viewBox="0 0 10 10" fill="none">
       <Path
-        fill="currentColor"
-        d="M7.707 6.293a1 1 0 0 0 0 1.414l-5 5a1 1 0 0 0 1.414 1.414 1 1 0 0 0 1.414 0L7.586 8l-3.293-3.293a1 1 0 0 0-1.414 1.414l5 5a1 1 0 0 0 0-1.414z"
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M0 7.474V10l10-5L0 0v2.526L4.947 5 0 7.474z"
+        fill="#070707"
       />
     </Svg>
   );

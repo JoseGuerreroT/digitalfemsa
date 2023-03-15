@@ -1,13 +1,11 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import PointsScreen from '../screens/PointsScreen';
-import TransactionDetailScreen from '../screens/TransactionDetailsScreen';
-import TransactionDetailHeader from '../screens/TransactionDetailsScreen/components/TransactionDetailsHeader';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
+import {pointsRoutes} from '../features/Points/routes/routes';
 
 const Stack = createNativeStackNavigator();
-
+const allRoutes = {...pointsRoutes};
 function App() {
   return (
     <SafeAreaProvider>
@@ -16,6 +14,15 @@ function App() {
           screenOptions={{
             headerStyle: {},
           }}>
+          {Object.keys(allRoutes).map(routeKey => {
+            return (
+              <Stack.Screen
+                options={allRoutes[routeKey].options}
+                name={allRoutes[routeKey].name}
+                component={allRoutes[routeKey].component}
+              />
+            );
+          })}
           {/* <Stack.Screen
             name="TransactionsDetailScreen"
             component={TransactionDetailScreen}
@@ -23,13 +30,13 @@ function App() {
               header: () => <TransactionDetailHeader />,
             }}
           /> */}
-          <Stack.Screen
+          {/* <Stack.Screen
             options={{
               header: () => null,
             }}
-            name="PointsScreen"
-            component={PointsScreen}
-          />
+            name="PointsTransactionsScreen"
+            component={PointsTransactionsScreen}
+          /> */}
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
