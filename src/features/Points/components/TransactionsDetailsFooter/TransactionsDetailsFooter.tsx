@@ -2,13 +2,21 @@ import React from 'react';
 import {View, StyleSheet} from 'react-native';
 import Button from '../../../../core/Button';
 import Text from '../../../../core/Text';
+import {
+  getTextualDateFormat,
+  getThousandFormat,
+} from '../../../../utils/formatString';
 
 type TransactionDetailsFooterProps = {
+  createdAt: string;
+  points: number;
   onSubmit: () => void;
 };
 
 const TransactionDetailsFooter: React.FC<TransactionDetailsFooterProps> = ({
   onSubmit,
+  createdAt,
+  points,
 }) => {
   return (
     <View>
@@ -16,13 +24,13 @@ const TransactionDetailsFooter: React.FC<TransactionDetailsFooterProps> = ({
         Detalles del producto:
       </Text>
       <Text weight="800" style={styles.descriptionTxt}>
-        Comprado el 26 de enero, 2019
+        Comprado el {getTextualDateFormat(createdAt)}
       </Text>
       <Text weight="800" style={styles.subtitle}>
         Con esta compra acumulaste:
       </Text>
       <Text weight="800" style={styles.pointsTxt}>
-        100 puntos
+        {getThousandFormat(points)} puntos
       </Text>
       <Button onPress={onSubmit} title="Aceptar" />
     </View>

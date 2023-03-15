@@ -15,8 +15,12 @@ const PointsTransactionDetails: React.FC<PointsTransactionDetailsProps> = ({
 }) => {
   return (
     <View style={styles.container}>
-      <TransactionDetailsImage />
-      <TransactionsDetailsFooter onSubmit={onSubmit} />
+      <TransactionDetailsImage image={product.image} />
+      <TransactionsDetailsFooter
+        createdAt={product.createdAt}
+        points={product.points}
+        onSubmit={onSubmit}
+      />
     </View>
   );
 };

@@ -3,9 +3,15 @@ import {View, Image, StyleSheet} from 'react-native';
 
 const DEFAULT_IMAGE = require('../../../../assets/images/placerholder-trasaction-item.png');
 
-const TransactionDetailsImage: React.FC<{}> = ({}) => (
+type TransactionDetailsImageProps = {
+  image?: string;
+};
+
+const TransactionDetailsImage: React.FC<TransactionDetailsImageProps> = ({
+  image,
+}) => (
   <View style={styles.container}>
-    <Image source={DEFAULT_IMAGE} style={styles.image} />
+    <Image source={image ? {uri: image} : DEFAULT_IMAGE} style={styles.image} />
   </View>
 );
 

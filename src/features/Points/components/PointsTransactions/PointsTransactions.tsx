@@ -34,8 +34,6 @@ const PointsTransactions: React.FC<PointsTransactionsProps> = ({
     return <Text>Error al cargar</Text>;
   }
 
-  console.log('data', products);
-
   return (
     <SafeAreaView style={styles.container}>
       <PointsHeader />
