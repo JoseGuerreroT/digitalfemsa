@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useMemo} from 'react';
 import {StyleSheet, View} from 'react-native';
 import PointsCard from './components/PointsCard';
 import PointsHeader from './/components/PointsHeader';
@@ -16,7 +16,9 @@ const PointsScreen: React.FC<{}> = () => {
     PRODUCTS_ENDPOINT,
     getProducts,
   );
+
   const totalPoints = getTotalPoints(products);
+
   //   if (loading) {
   //     return <Text>Loading...</Text>;
   //   }
