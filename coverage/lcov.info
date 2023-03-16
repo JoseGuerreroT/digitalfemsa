@@ -84,7 +84,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsCard/PointsCard.style.ts
+SF:src/domains/Points/components/PointsCard/PointsCard.style.ts
 FNF:0
 FNH:0
 DA:3,2
@@ -94,7 +94,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsCard/PointsCard.tsx
+SF:src/domains/Points/components/PointsCard/PointsCard.tsx
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -107,7 +107,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsCard/index.ts
+SF:src/domains/Points/components/PointsCard/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -116,7 +116,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsHeader/PointsHeader.tsx
+SF:src/domains/Points/components/PointsHeader/PointsHeader.tsx
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -130,7 +130,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsHeader/index.ts
+SF:src/domains/Points/components/PointsHeader/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -139,7 +139,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsTransactionDetails/PointsTransactionDetails.tsx
+SF:src/domains/Points/components/PointsTransactionDetails/PointsTransactionDetails.tsx
 FN:20,(anonymous_0)
 FNF:1
 FNH:1
@@ -153,7 +153,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsTransactionDetails/index.ts
+SF:src/domains/Points/components/PointsTransactionDetails/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -162,7 +162,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/PointsTransactions/PointsTransactions.tsx
+SF:src/domains/Points/components/PointsTransactions/PointsTransactions.tsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -186,7 +186,7 @@ BRF:4
 BRH:3
 end_of_record
 TN:
-SF:src/features/Points/components/PointsTransactions/index.tsx
+SF:src/domains/Points/components/PointsTransactions/index.tsx
 FNF:0
 FNH:0
 LF:0
@@ -195,7 +195,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionDetailsHeader/TransactionDetailsHeader.tsx
+SF:src/domains/Points/components/TransactionDetailsHeader/TransactionDetailsHeader.tsx
 FN:10,(anonymous_0)
 FNF:1
 FNH:1
@@ -209,7 +209,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionDetailsHeader/index.ts
+SF:src/domains/Points/components/TransactionDetailsHeader/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -218,7 +218,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionDetailsImage/TransactionDetailsImage.tsx
+SF:src/domains/Points/components/TransactionDetailsImage/TransactionDetailsImage.tsx
 FN:10,(anonymous_0)
 FNF:1
 FNH:1
@@ -235,7 +235,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionDetailsImage/index.ts
+SF:src/domains/Points/components/TransactionDetailsImage/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -244,7 +244,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionFooter/TransactionFooter.tsx
+SF:src/domains/Points/components/TransactionFooter/TransactionFooter.tsx
 FN:11,(anonymous_0)
 FN:15,(anonymous_1)
 FN:22,(anonymous_2)
@@ -273,7 +273,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionFooter/index.ts
+SF:src/domains/Points/components/TransactionFooter/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -282,7 +282,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionItem/TransactionItem.tsx
+SF:src/domains/Points/components/TransactionItem/TransactionItem.tsx
 FN:18,(anonymous_0)
 FN:24,(anonymous_1)
 FNF:2
@@ -302,7 +302,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionItem/index.ts
+SF:src/domains/Points/components/TransactionItem/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -311,7 +311,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionsDetailsFooter/TransactionsDetailsFooter.tsx
+SF:src/domains/Points/components/TransactionsDetailsFooter/TransactionsDetailsFooter.tsx
 FN:16,(anonymous_0)
 FNF:1
 FNH:1
@@ -325,7 +325,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionsDetailsFooter/index.ts
+SF:src/domains/Points/components/TransactionsDetailsFooter/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -334,7 +334,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionsList/TransactionsList.tsx
+SF:src/domains/Points/components/TransactionsList/TransactionsList.tsx
 FN:14,(anonymous_0)
 FN:15,(anonymous_1)
 FN:16,(anonymous_2)
@@ -365,7 +365,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/components/TransactionsList/index.ts
+SF:src/domains/Points/components/TransactionsList/index.ts
 FNF:0
 FNH:0
 LF:0
@@ -374,7 +374,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/services/product.ts
+SF:src/domains/Points/services/product.ts
 FN:3,(anonymous_0)
 FNF:1
 FNH:1
@@ -389,7 +389,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/utils/formatString.ts
+SF:src/domains/Points/utils/formatString.ts
 FN:4,(anonymous_0)
 FN:10,(anonymous_1)
 FNF:2
@@ -408,7 +408,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/features/Points/utils/getTotalPoints.ts
+SF:src/domains/Points/utils/getTotalPoints.ts
 FN:3,(anonymous_0)
 FN:5,(anonymous_1)
 FNF:2

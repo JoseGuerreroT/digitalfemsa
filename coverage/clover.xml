@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678947385280" clover="3.2.0">
-  <project timestamp="1678947385280" name="All files">
+<coverage generated="1678948957681" clover="3.2.0">
+  <project timestamp="1678948957682" name="All files">
     <metrics statements="75" coveredstatements="73" conditionals="17" coveredconditionals="15" methods="28" coveredmethods="28" elements="120" coveredelements="116" complexity="0" loc="75" ncloc="75" packages="16" files="31" classes="31"/>
     <package name="assets.icons">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -46,48 +46,48 @@
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.PointsCard">
+    <package name="domains.Points.components.PointsCard">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="PointsCard.style.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsCard/PointsCard.style.ts">
+      <file name="PointsCard.style.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsCard/PointsCard.style.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="3" count="2" type="stmt"/>
       </file>
-      <file name="PointsCard.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsCard/PointsCard.tsx">
+      <file name="PointsCard.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsCard/PointsCard.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsCard/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsCard/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.PointsHeader">
+    <package name="domains.Points.components.PointsHeader">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="PointsHeader.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsHeader/PointsHeader.tsx">
+      <file name="PointsHeader.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsHeader/PointsHeader.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsHeader/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsHeader/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.PointsTransactionDetails">
+    <package name="domains.Points.components.PointsTransactionDetails">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="PointsTransactionDetails.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsTransactionDetails/PointsTransactionDetails.tsx">
+      <file name="PointsTransactionDetails.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsTransactionDetails/PointsTransactionDetails.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="20" count="1" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsTransactionDetails/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsTransactionDetails/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.PointsTransactions">
+    <package name="domains.Points.components.PointsTransactions">
       <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="PointsTransactions.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsTransactions/PointsTransactions.tsx">
+      <file name="PointsTransactions.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsTransactions/PointsTransactions.tsx">
         <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="17" count="1" type="stmt"/>
         <line num="24" count="5" type="stmt"/>
@@ -99,38 +99,38 @@
         <line num="36" count="0" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
       </file>
-      <file name="index.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/PointsTransactions/index.tsx">
+      <file name="index.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/PointsTransactions/index.tsx">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.TransactionDetailsHeader">
+    <package name="domains.Points.components.TransactionDetailsHeader">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="TransactionDetailsHeader.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionDetailsHeader/TransactionDetailsHeader.tsx">
+      <file name="TransactionDetailsHeader.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionDetailsHeader/TransactionDetailsHeader.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="10" count="1" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionDetailsHeader/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionDetailsHeader/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.TransactionDetailsImage">
+    <package name="domains.Points.components.TransactionDetailsImage">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="TransactionDetailsImage.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionDetailsImage/TransactionDetailsImage.tsx">
+      <file name="TransactionDetailsImage.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionDetailsImage/TransactionDetailsImage.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="4" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="13" count="5" type="stmt"/>
         <line num="23" count="2" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionDetailsImage/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionDetailsImage/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.TransactionFooter">
+    <package name="domains.Points.components.TransactionFooter">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
-      <file name="TransactionFooter.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionFooter/TransactionFooter.tsx">
+      <file name="TransactionFooter.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionFooter/TransactionFooter.tsx">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
         <line num="11" count="3" type="stmt"/>
         <line num="15" count="11" type="stmt"/>
@@ -141,13 +141,13 @@
         <line num="38" count="1" type="stmt"/>
         <line num="48" count="3" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionFooter/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionFooter/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.TransactionItem">
+    <package name="domains.Points.components.TransactionItem">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-      <file name="TransactionItem.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionItem/TransactionItem.tsx">
+      <file name="TransactionItem.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionItem/TransactionItem.tsx">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="16" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
@@ -155,25 +155,25 @@
         <line num="24" count="2" type="stmt"/>
         <line num="56" count="3" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionItem/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionItem/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.TransactionsDetailsFooter">
+    <package name="domains.Points.components.TransactionsDetailsFooter">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="TransactionsDetailsFooter.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionsDetailsFooter/TransactionsDetailsFooter.tsx">
+      <file name="TransactionsDetailsFooter.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionsDetailsFooter/TransactionsDetailsFooter.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="16" count="2" type="stmt"/>
         <line num="21" count="4" type="stmt"/>
         <line num="46" count="2" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionsDetailsFooter/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionsDetailsFooter/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.components.TransactionsList">
+    <package name="domains.Points.components.TransactionsList">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
-      <file name="TransactionsList.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionsList/TransactionsList.tsx">
+      <file name="TransactionsList.tsx" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionsList/TransactionsList.tsx">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="15" type="stmt"/>
@@ -186,13 +186,13 @@
         <line num="37" count="18" type="stmt"/>
         <line num="48" count="2" type="stmt"/>
       </file>
-      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/components/TransactionsList/index.ts">
+      <file name="index.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/components/TransactionsList/index.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="features.Points.services">
+    <package name="domains.Points.services">
       <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="product.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/services/product.ts">
+      <file name="product.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/services/product.ts">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -200,9 +200,9 @@
         <line num="5" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="features.Points.utils">
+    <package name="domains.Points.utils">
       <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-      <file name="formatString.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/utils/formatString.ts">
+      <file name="formatString.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/utils/formatString.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="4" count="7" type="stmt"/>
         <line num="5" count="28" type="stmt"/>
@@ -211,7 +211,7 @@
         <line num="10" count="7" type="stmt"/>
         <line num="11" count="29" type="stmt"/>
       </file>
-      <file name="getTotalPoints.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/features/Points/utils/getTotalPoints.ts">
+      <file name="getTotalPoints.ts" path="/Users/joseguerrero/personal/digital-femsa/digitalfemsa/src/domains/Points/utils/getTotalPoints.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="3" count="2" type="stmt"/>
         <line num="4" count="8" type="cond" truecount="2" falsecount="0"/>
