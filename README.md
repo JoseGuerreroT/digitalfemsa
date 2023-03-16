@@ -21,13 +21,21 @@ Aunque el proyecto ya cuenta con varias funcionalidades implementadas, se consid
 - Agregar un useTheme context para el manejo del tema del proyecto. Esto permitiría a los usuarios cambiar el tema de la aplicación de forma sencilla y rápida, sin necesidad de modificar cada componente por separado.
 
 - Agregar un PointsProvider context para el filtro de los puntos. Actualmente, el filtro se maneja dentro del componente Points, pero esto podría generar problemas de escalabilidad y rendimiento a medida que la aplicación crece. Al agregar un proveedor específico para este propósito, se garantiza que solo los componentes que necesitan acceder a la lista filtrada de puntos la obtengan, evitando así la sobrecarga innecesaria de componentes no relacionados con esta funcionalidad.
+- Mejorar más el coverage
 
 > _Aunque estas funcionalidades no están implementadas en el proyecto actual, podrían ser valiosas adiciones en el futuro para mejorar la experiencia del usuario y facilitar el mantenimiento del código._
+
+### Coverage
+<img width="1724" alt="image" src="https://user-images.githubusercontent.com/14618190/225542738-2f19cd9e-51b7-48f6-b23f-1e8b35e68be3.png">
+
 
 ##Instalación
 Clona el repositorio usando **git clone** o descarga el archivo .zip.
 En la carpeta raíz del proyecto, ejecuta el comando npm install / yarn install para instalar las dependencias.
 Ejecuta el comando npm start para iniciar la aplicación.
+
+
+
 Estructura de archivos
 El proyecto sigue la siguiente estructura de archivos:
 
