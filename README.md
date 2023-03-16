@@ -35,9 +35,8 @@ css
 
     digitalfemsa/
     ├── src/
-    │   ├── components/
-    │   ├── screens/
-    │   ├── contexts/
+    │   ├── core/
+    │   ├── contexts/ (pending)
     │   ├── domains/
     │   ├── navigation/
     │   └── ...
