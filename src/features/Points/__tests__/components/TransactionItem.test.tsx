@@ -2,16 +2,7 @@ import React from 'react';
 import {render, fireEvent} from '@testing-library/react-native';
 
 import TransactionItem from '../../components/TransactionItem';
-import {Product} from '../../models/Product';
-
-const mockProduct: Product = {
-  createdAt: '2022-01-01T12:00:00Z',
-  product: 'Product Name',
-  points: 100,
-  image: 'https://example.com/image.png',
-  is_redemption: false,
-  id: 'abc123',
-};
+import {mockProduct} from '../mocks/product';
 
 describe('TransactionItem', () => {
   test('01 - renders the correct product name', () => {

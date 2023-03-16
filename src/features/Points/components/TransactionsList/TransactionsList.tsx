@@ -26,6 +26,7 @@ const TransactionList: React.FC<TransactionListProps> = ({
     <View>
       <View style={styles.container}>
         <FlatList
+          accessibilityLabel="transaction-list"
           data={products.filter(filtersProduct[filterSelected])}
           renderItem={({item}) => (
             <TransactionItem

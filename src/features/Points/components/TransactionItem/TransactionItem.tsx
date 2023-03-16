@@ -20,7 +20,7 @@ const TransactionItem: React.FC<TransactionItemProps> = ({
   onTransactionPress,
 }) => (
   <TouchableOpacity
-    accessibilityLabel="transaction-item"
+    accessibilityLabel={`transaction-item-${product.id}`}
     onPress={() => onTransactionPress(product)}
     style={styles.container}>
     <View style={styles.section}>
