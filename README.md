@@ -1,8 +1,13 @@
 # digitalfemsa
+<div style="display:flex;">
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/14618190/225541816-0a62a17e-ab4c-40cd-b290-eab8f9f4d6e3.png">
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/14618190/225541768-ca624ffc-95d1-482a-b17f-38499339c785.png">
+</div>
 
 Este proyecto es una prueba técnica para el desarrollo de una aplicación móvil en React Native para la empresa FEMSA.
 
 ### Funcionalidades completadas
+
 
 En este proyecto, se han implementado las siguientes funcionalidades:
 
