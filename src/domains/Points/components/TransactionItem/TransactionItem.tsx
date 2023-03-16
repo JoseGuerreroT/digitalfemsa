@@ -18,40 +18,52 @@ const DefaultImage = require('../../../../assets/images/placerholder-transaction
 const TransactionItem: React.FC<TransactionItemProps> = ({
   product,
   onTransactionPress,
-}) => (
-  <TouchableOpacity
-    accessibilityLabel={`transaction-item-${product.id}`}
-    onPress={() => onTransactionPress(product)}
-    style={styles.container}>
-    <View style={styles.section}>
-      <Image
-        source={product.image ? {uri: product.image} : DefaultImage}
-        style={styles.image}
-      />
-      <View>
-        <Text
-          numberOfLines={1}
-          ellipsizeMode="tail"
-          weight="bold"
-          style={styles.productNameTxt}>
-          {product.product}
-        </Text>
-        <Text style={styles.dateTxt}>
-          {getTextualDateFormat(product.createdAt)}
-        </Text>
+}) => {
+  const NegativeSymbol = () => (
+    <Text weight="bold" style={styles.negativeTxt}>
+      -
+    </Text>
+  );
+
+  const PositiveSymbol = () => (
+    <Text weight="bold" style={styles.positiveTxt}>
+      +
+    </Text>
+  );
+
+  return (
+    <TouchableOpacity
+      accessibilityLabel={`transaction-item-${product.id}`}
+      onPress={() => onTransactionPress(product)}
+      style={styles.container}>
+      <View style={styles.section}>
+        <Image
+          source={product.image ? {uri: product.image} : DefaultImage}
+          style={styles.image}
+        />
+        <View>
+          <Text
+            numberOfLines={1}
+            ellipsizeMode="tail"
+            weight="bold"
+            style={styles.productNameTxt}>
+            {product.product}
+          </Text>
+          <Text style={styles.dateTxt}>
+            {getTextualDateFormat(product.createdAt)}
+          </Text>
+        </View>
       </View>
-    </View>
-    <View style={styles.section}>
-      <Text weight="bold" style={styles.positiveTxt}>
-        +
-      </Text>
-      <Text weight="bold" style={styles.amountTxt}>
-        {getThousandFormat(product.points)}
-      </Text>
-      <ArrowIcon />
-    </View>
-  </TouchableOpacity>
-);
+      <View style={styles.section}>
+        {product.is_redemption ? <NegativeSymbol /> : <PositiveSymbol />}
+        <Text weight="bold" style={styles.amountTxt}>
+          {getThousandFormat(product.points)}
+        </Text>
+        <ArrowIcon />
+      </View>
+    </TouchableOpacity>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -81,6 +93,10 @@ const styles = StyleSheet.create({
   positiveTxt: {
     fontSize: 16,
     color: '#00B833',
+  },
+  negativeTxt: {
+    fontSize: 16,
+    color: '#FF0000',
   },
   amountTxt: {
     fontSize: 16,

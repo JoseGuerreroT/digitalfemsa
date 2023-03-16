@@ -4,7 +4,7 @@ import {mockProducts} from '../mocks/product.mock';
 
 describe('getTotalPoints', () => {
   test('01 - returns the correct total points when passed an array of products', () => {
-    const expectedTotalPoints = 600;
+    const expectedTotalPoints = -400;
 
     const totalPoints = getTotalPoints(mockProducts);
 
