@@ -18,20 +18,26 @@ const TransactionFooter: React.FC<TransactionFooterProps> = ({
         style={[styles.button, styles.buttonDivider]}
         size="small"
         title="Ganados"
+        accessibilityLabel="earned-button"
         onPress={() => setFilterSelected('EARNED')}
       />
       <Button
         style={styles.button}
         size="small"
         title="Canjeados"
-        onPress={() => setFilterSelected('EARNED')}
+        accessibilityLabel="redeemed-button"
+        onPress={() => setFilterSelected('REDEEMED')}
       />
     </View>
   );
   return (
     <View style={styles.container}>
       {filterSelected !== 'ALL' ? (
-        <Button title="Todos" onPress={() => setFilterSelected('ALL')} />
+        <Button
+          title="Todos"
+          onPress={() => setFilterSelected('ALL')}
+          accessibilityLabel="all-button"
+        />
       ) : (
         <FilterButton />
       )}
