@@ -19,7 +19,7 @@ const TransactionDetailsFooter: React.FC<TransactionDetailsFooterProps> = ({
   points,
 }) => {
   return (
-    <View>
+    <View role="row">
       <Text weight="800" style={styles.title}>
         Detalles del producto:
       </Text>
@@ -32,7 +32,11 @@ const TransactionDetailsFooter: React.FC<TransactionDetailsFooterProps> = ({
       <Text weight="800" style={styles.pointsTxt}>
         {getThousandFormat(points)} puntos
       </Text>
-      <Button onPress={onSubmit} title="Aceptar" />
+      <Button
+        accessibilityLabel="submit-button"
+        onPress={onSubmit}
+        title="Aceptar"
+      />
     </View>
   );
 };

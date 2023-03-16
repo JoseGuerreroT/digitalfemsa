@@ -15,7 +15,10 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   return (
-    <TouchableOpacity style={[styles.button, props.style]} onPress={onPress}>
+    <TouchableOpacity
+      style={[styles.button, props.style]}
+      onPress={onPress}
+      {...props}>
       <Text
         weight="bold"
         style={[styles.text, {fontSize: size === 'medium' ? 16 : 12}]}>

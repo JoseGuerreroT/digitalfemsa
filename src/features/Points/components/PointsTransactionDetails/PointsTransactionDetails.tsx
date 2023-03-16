@@ -1,8 +1,16 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import {Product} from '../../models/Product';
 import TransactionDetailsImage from '../TransactionDetailsImage';
 import TransactionsDetailsFooter from '../TransactionsDetailsFooter';
+
+export type Product = {
+  createdAt: string;
+  product: string;
+  points: number;
+  image: string;
+  is_redemption: boolean;
+  id: string;
+};
 
 type PointsTransactionDetailsProps = {
   product: Product;

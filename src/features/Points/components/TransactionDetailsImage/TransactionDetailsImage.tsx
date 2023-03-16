@@ -11,7 +11,11 @@ const TransactionDetailsImage: React.FC<TransactionDetailsImageProps> = ({
   image,
 }) => (
   <View style={styles.container}>
-    <Image source={image ? {uri: image} : DEFAULT_IMAGE} style={styles.image} />
+    <Image
+      role="img"
+      source={image ? {uri: image} : DEFAULT_IMAGE}
+      style={styles.image}
+    />
   </View>
 );
 
