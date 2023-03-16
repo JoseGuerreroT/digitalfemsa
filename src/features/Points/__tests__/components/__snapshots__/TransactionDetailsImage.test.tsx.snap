@@ -20,78 +20,7 @@ exports[`TransactionDetailsImage 01 - renders correctly 1`] = `
   }
 >
   <Image
-    role="img"
-    source={
-      {
-        "testUri": "../../../src/assets/images/placerholder-trasaction-item.png",
-      }
-    }
-    style={
-      {
-        "height": 200,
-        "width": 200,
-      }
-    }
-  />
-</View>
-`;
-
-exports[`TransactionDetailsImage TransactionDetailsImage renders correctly 1`] = `
-<View
-  style={
-    {
-      "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "borderRadius": 10,
-      "justifyContent": "center",
-      "padding": 75,
-      "shadowColor": "#000",
-      "shadowOffset": {
-        "height": 4,
-        "width": 0,
-      },
-      "shadowOpacity": 0.5,
-      "shadowRadius": 4,
-    }
-  }
->
-  <Image
-    role="img"
-    source={
-      {
-        "testUri": "../../../src/assets/images/placerholder-trasaction-item.png",
-      }
-    }
-    style={
-      {
-        "height": 200,
-        "width": 200,
-      }
-    }
-  />
-</View>
-`;
-
-exports[`TransactionDetailsImage renders correctly 1`] = `
-<View
-  style={
-    {
-      "alignItems": "center",
-      "backgroundColor": "#FFF",
-      "borderRadius": 10,
-      "justifyContent": "center",
-      "padding": 75,
-      "shadowColor": "#000",
-      "shadowOffset": {
-        "height": 4,
-        "width": 0,
-      },
-      "shadowOpacity": 0.5,
-      "shadowRadius": 4,
-    }
-  }
->
-  <Image
+    accessibilityLabel="Transaction Image"
     role="img"
     source={
       {

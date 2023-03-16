@@ -1,7 +1,7 @@
 import React from 'react';
 import {render, fireEvent} from '@testing-library/react-native';
 import TransactionList from '../../components/TransactionsList';
-import {mockProducts} from '../mocks/product';
+import {mockProducts} from '../mocks/product.mock';
 
 describe('<TransactionList />', () => {
   test('01 - renders correctly', () => {

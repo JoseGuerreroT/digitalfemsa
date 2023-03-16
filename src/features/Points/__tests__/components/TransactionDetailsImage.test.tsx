@@ -15,7 +15,6 @@ describe('TransactionDetailsImage', () => {
 
     const {getByLabelText} = render(<TransactionDetailsImage />);
     const image = getByLabelText('Transaction Image');
-    console.log('image', image.props);
     expect(image.props.source.testUri).toBe(DEFAULT_IMAGE);
   });
 

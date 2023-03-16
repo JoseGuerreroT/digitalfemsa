@@ -1,4 +1,5 @@
-import {Product} from '../../../models/Product';
+import {Product} from '../models/Product';
+
 export const getTotalPoints = (products?: Product[]) =>
   products
     ? products.reduce((totalPoints, product) => {

@@ -2,14 +2,13 @@ import React from 'react';
 import {render, fireEvent} from '@testing-library/react-native';
 
 import TransactionItem from '../../components/TransactionItem';
-import {mockProduct} from '../mocks/product';
+import {mockProduct} from '../mocks/product.mock';
 
 describe('TransactionItem', () => {
   test('01 - renders the correct product name', () => {
-    const {getByText, debug} = render(
+    const {getByText} = render(
       <TransactionItem product={mockProduct} onTransactionPress={() => {}} />,
     );
-    debug();
     expect(getByText(mockProduct.product)).not.toBeNull();
   });
 
@@ -28,7 +27,7 @@ describe('TransactionItem', () => {
         onTransactionPress={mockCallback}
       />,
     );
-    fireEvent.press(getByLabelText('transaction-item'));
+    fireEvent.press(getByLabelText(`transaction-item-${mockProduct?.id}`));
     expect(mockCallback).toHaveBeenCalledTimes(1);
     expect(mockCallback).toHaveBeenCalledWith(mockProduct);
   });

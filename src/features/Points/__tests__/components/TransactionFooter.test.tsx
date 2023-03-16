@@ -16,13 +16,12 @@ describe('TransactionFooter', () => {
   });
 
   test('02 - calls setFilterSelected with "ALL" when "Todos" button is pressed', () => {
-    const {getByLabelText, debug} = render(
+    const {getByLabelText} = render(
       <TransactionFooter
         filterSelected="EARNED"
         setFilterSelected={setFilterSelected}
       />,
     );
-    debug();
     const allButton = getByLabelText('all-button');
     fireEvent.press(allButton);
     expect(setFilterSelected).toHaveBeenCalledWith('ALL');

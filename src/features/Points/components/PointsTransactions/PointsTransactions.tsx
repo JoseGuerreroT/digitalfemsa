@@ -17,7 +17,6 @@ type PointsTransactionsProps = {
 const PointsTransactions: React.FC<PointsTransactionsProps> = ({
   onTransactionPress,
 }) => {
-  //   const {data, loading, error} = useQuery(GET_POINTS);
   const {
     data: products,
     isLoading,

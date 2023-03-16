@@ -12,11 +12,12 @@ const Button: React.FC<ButtonProps> = ({
   title,
   onPress,
   size = 'medium',
+  style,
   ...props
 }) => {
   return (
     <TouchableOpacity
-      style={[styles.button, props.style]}
+      style={[styles.button, style]}
       onPress={onPress}
       {...props}>
       <Text
