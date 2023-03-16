@@ -14,7 +14,7 @@ describe('PointsTransactionDetails', () => {
   };
 
   test('01 - renders product details', () => {
-    const {findByRole, debug} = render(
+    const {findByRole} = render(
       <PointsTransactionDetails product={mockProduct} onSubmit={() => {}} />,
     );
     const productPointsSection = findByRole('row');
@@ -26,7 +26,7 @@ describe('PointsTransactionDetails', () => {
 
   test('02 - calls onSubmit when submit button is pressed', () => {
     const handleSubmit = jest.fn();
-    const {debug, getByLabelText} = render(
+    const {getByLabelText} = render(
       <PointsTransactionDetails
         product={mockProduct}
         onSubmit={handleSubmit}

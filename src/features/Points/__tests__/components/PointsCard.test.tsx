@@ -9,8 +9,7 @@ describe('PointsCard component', () => {
   });
 
   test('02 - displays the correct points value', () => {
-    const {getByText, debug} = render(<PointsCard points={12000} />);
-    debug();
+    const {getByText} = render(<PointsCard points={12000} />);
     const pointsElement = getByText('12,000 pts');
     expect(pointsElement).toBeDefined();
   });

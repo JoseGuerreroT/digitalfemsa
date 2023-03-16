@@ -27,7 +27,7 @@ const PointsTransactions: React.FC<PointsTransactionsProps> = ({
   const totalPoints = getTotalPoints(products);
 
   if (isLoading) {
-    return <ActivityIndicator />;
+    return <ActivityIndicator accessibilityLabel="loading-products" />;
   }
 
   if (error) {

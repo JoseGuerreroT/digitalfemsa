@@ -9,16 +9,13 @@ type TransactionDetailHeaderProps = {
 
 const TransactionDetailHeader: React.FC<TransactionDetailHeaderProps> = ({
   name,
-}) => {
-  console.log('name', name);
-  return (
-    <View style={styles.container}>
-      <Text weight="bold" style={styles.title}>
-        {name}
-      </Text>
-    </View>
-  );
-};
+}) => (
+  <View style={styles.container}>
+    <Text weight="bold" style={styles.title}>
+      {name}
+    </Text>
+  </View>
+);
 
 const styles = StyleSheet.create({
   container: {
