@@ -1,13 +1,9 @@
-import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import TransactionDetailHeader from '../components/TransactionDetailsHeader/TransactionDetailsHeader';
 import PointsTransactionDetailsScreen from '../screens/PointsTransactionDetailsScreen';
 import PointsTransactionsScreen from '../screens/PointsTransactionsScreen';
-import {PointsRoutes, PointsRoutesParamList} from './types';
+import {PointsRoutes} from './types';
 
-export const pointsRoutes: Record<
-  PointsRoutes,
-  NativeStackScreenProps<PointsRoutesParamList>
-> = {
+export const pointsRoutes = {
   [PointsRoutes.POINTS_TRANSACTIONS]: {
     name: PointsRoutes.POINTS_TRANSACTIONS,
     component: PointsTransactionsScreen,
