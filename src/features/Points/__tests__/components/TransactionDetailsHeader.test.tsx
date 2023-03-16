@@ -3,11 +3,11 @@ import {render} from '@testing-library/react-native';
 
 import TransactionDetailHeader from '../../components/TransactionDetailsHeader';
 describe('TransactionDetailHeader', () => {
-  test('renders correctly', () => {
+  test('01 - renders correctly', () => {
     render(<TransactionDetailHeader name="Transaction Name" />);
   });
 
-  test('displays the transaction name', () => {
+  test('02 - displays the transaction name', () => {
     const {getByText} = render(
       <TransactionDetailHeader name="Transaction Name" />,
     );
